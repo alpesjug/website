@@ -1,0 +1,16 @@
+items:
+  - title: "Événements"
+    path: "/"
+    icon: "fa-regular fa-newspaper"
+
+  - title: "Ressources"
+    path: "/resources"
+    icon: "fa-solid fa-book"
+
+  - title: "Sponsors"
+    path: "/sponsors"
+    icon: "fa fa-handshake"
+
+  - title: "À propos"
+    path: "/about"
+    icon: "fa fa-info-circle"

@@ -1,0 +1,63 @@
+/* Theme customization: https://iamroq.dev/theme/default/#css-customization */
+/* Alpes JUG palette — orange brand + dark charcoal */
+@theme inline {
+    /* Accent: dark charcoal scale (sidebar, headers, text) */
+    --color-accent-50:  #f7f7f7;
+    --color-accent-100: #efefef;
+    --color-accent-200: #d6d6d6;
+    --color-accent-300: #b0b0b0;
+    --color-accent-400: #888888;
+    --color-accent-500: #6b6b6b;
+    --color-accent-600: #4a4a4a;
+    --color-accent-700: #333333;
+    --color-accent-800: #1f1f1f;
+    --color-accent-900: #141414;
+    --color-accent-950: #0a0a0a;
+
+    /* Pop: Alpes JUG orange (buttons, links, highlights) */
+    --color-pop-50:  #fff8ed;
+    --color-pop-100: #ffefd3;
+    --color-pop-200: #fddba5;
+    --color-pop-300: #fcc06d;
+    --color-pop-400: #fa9a35;
+    --color-pop-500: #f07800;
+    --color-pop-600: #c46000;
+    --color-pop-700: #9a4b00;
+    --color-pop-800: #7a3a00;
+    --color-pop-900: #5c2c00;
+    --color-pop-950: #3d1c00;
+
+    /* Neutral: stone for a warm-grey feel */
+    --color-neutral-50:  var(--color-stone-50);
+    --color-neutral-100: var(--color-stone-100);
+    --color-neutral-200: var(--color-stone-200);
+    --color-neutral-300: var(--color-stone-300);
+    --color-neutral-400: var(--color-stone-400);
+    --color-neutral-500: var(--color-stone-500);
+    --color-neutral-600: var(--color-stone-600);
+    --color-neutral-700: var(--color-stone-700);
+    --color-neutral-800: var(--color-stone-800);
+    --color-neutral-900: var(--color-stone-900);
+    --color-neutral-950: var(--color-stone-950);
+}
+
+.author-card-link {
+    text-decoration: none;
+}
+
+.article-page .page-header h1,
+.article-page h2,
+.article-page h3,
+.article-page h4 {
+    color: var(--color-pop-500);
+}
+
+.article-page .page-cover-image {
+    max-height: none;
+    overflow: visible;
+}
+
+.article-page .page-cover-image .page-image {
+    height: auto;
+    object-fit: contain;
+}

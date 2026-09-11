@@ -1,0 +1,21 @@
+<section class="contact">
+    <h3 class="section-title contact-title">{=roq_theme:contact_title}</h3>
+    <ul>
+        {#for entry in brand.entrySet()}
+        {#if site.data.get(entry.key)??}
+        <li>
+            <a href="{=entry.value.prefix()}{=site.data.get(entry.key)}" target="_blank" rel="noopener noreferrer">
+                <i class="{=entry.value.icon()}" aria-hidden="true"></i>
+            </a>
+        </li>
+        {/if}
+        {/for}
+        {#if site.data.get('social-meetup')??}
+        <li>
+            <a href="{=site.data.get('social-meetup')}" target="_blank" rel="noopener noreferrer" title="Meetup">
+                <i class="fa-brands fa-meetup" aria-hidden="true"></i>
+            </a>
+        </li>
+        {/if}
+    </ul>
+</section>

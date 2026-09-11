@@ -1,0 +1,17 @@
+---
+title: "Déployer et automatiser ses applicatifs Java avec Ansible"
+description: "Présentation"
+image: cover.jpg
+tags: conference
+date: 2025-02-27
+---
+
+==  Programme de la soirée
+
+Qu'il s'agisse de déployer une application Quarkus dans une infrastructure Edge ou un serveur d'applications Java/JEE, et sa douzaine de webapps, au sein d'un centre de données utilisant des machines virtuelles, ou même une infrastructure cloud comme celle proposée par Amazon ou Azure, les produits de l'écosystème Java ne s'exécutent jamais dans le vide et des opérations, plus ou moins nombreuses et plus ou moins complexes, sont requises pour mettre ces solutions logicielles en place, mais également pour assurer le maintien des conditions nécessaires de leur bon fonctionnement. Ainsi, pour délivrer la promesse de Java (« written once, run everywhere »), il faut symétriquement garantir que son infrastructure soit en ordre, et c'est là qu'un outil, tout aussi portable, et dédié à l'automatisation, tel que Ansible, se révèle crucial.
+
+Dans cette présentation, nous mettrons en place, ensemble, un système d'information complet, intégrant de nombreuses solutions Java (Apache Tomcat, WildFly, Keycloak, Kafka, Infinispan…) de manière entièrement automatisée, uniquement à l'aide d'Ansible, sans jamais exécuté la moindre commande manuellement. Lors de ces travaux, nous étudierons les différentes difficultés, spécifiques au monde Java, de ce genre d'exercice, mais également toute la puissance et l'assistance qu'Ansible apporte.
+
+== Le Conférencier: Romain Pelisse
+
+Romain Pelisse travaille dans l'écosystème Java Open Source, en particulier celui de JBoss, depuis 20 ans. Fier Red Hatter depuis presque quinze ans, il a non seulement œuvré comme consultant puis architecte pour la société, et ainsi vu de nombreux déploiement des logicielles Java de l'éditeur par une myriade de différentes organisations, mais également développé une passion pour l'automatisation, à l'aide de produits tel que Ansible. Il mène aujourd'hui une initiative, au sein du département R&D de Red Hat, dédiée à l'intégration des solutions Runtimes (Java) de l'éditeur avec sa suite de logiciels d'automatisation construite autour d'Ansible.

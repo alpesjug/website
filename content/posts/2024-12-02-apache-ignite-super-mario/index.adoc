@@ -1,0 +1,31 @@
+---
+title: "Apache Ignite joue à Super Mario"
+description: "Nous aurons deux sujets lors de cette soirée:"
+image: cover.jpg
+tags: conference
+date: 2024-12-02
+---
+
+Nous aurons deux sujets lors de cette soirée:
+
+==  Programme de la soirée
+
+=== Apache Ignite
+
+De nos jours, on entend parler que de LLM, d’IA générative… Mais dans nos projets de tous les jours, nous avons encore besoin d’outils moins hype, mais pour autant très efficaces ! Apache Ignite est une pépite qu’il ne faut pas négliger, à la fois grille mémoire et base de donnée distribuée, il est l’allié idéal pour vos projets microservice, vos besoins de cache de second niveau, pour gérer des calculs distribués. Pendant une courte présentation d’une heure, je vais vous présenter cet outil formidable que je pratique depuis 5 ans, j’espère ainsi vous donner envie de l’essayer et de l’adopter !
+
+=== Coder avec peu : les bons tuyaux de Mario
+
+Le développement logiciel est souvent un challenge, d'autant plus quand on a de fortes contraintes matérielles : peu de CPU, peu de RAM, peu voire pas de stockage... L'industrie du jeu vidéo a parfois su se montrer très inventive, voire déroutante pour outrepasser certaines de ces limitations.
+Nous ferons un saut dans le passé, en particulier dans le monde 8bit de la Nintendo NES. Comment Super Mario Bros a-t-il pu tenir dans seulement 40 Ko ? Comment 2 Ko de RAM vidéo suffisent pour afficher les exploits du plus célèbre des plombiers moustachus ?
+L'avènement des moteurs de jeu 3D tels que celui de Quake III a révolutionné l'histoire du jeu vidéo, notamment grâce à une célèbre optimisation digne d'un tour de magie noire, dont je vous propose de percer le mystère.
+
+== Les Conférenciers: Clément de Tastes et Yann Blazart
+
+* **Clément de Tastes**
+
+Passionné par le développement logiciel depuis l’obtention de ma première calculatrice programmable, j'ai pu me forger une solide expérience de tech lead et d’architecte dans la conception de systèmes de combats embarqués. Adepte du clean code, de “developer joy” et d’architectures bien pensées, j'aime intervenir aussi bien sur les sujets de conception que de dev front ou back dans l'écosystème Java.
+
+* **Yann Blazart**
+
+Architecte Java EE, leader technique, développeur, Yann aime passer d'un domaine à l'autre au cours de ses différentes missions. Véritable passionné de la stack Java EE 7, et plus particulièrement CDI 1.2 et JAX-RS 2, il aime étudier le code des projets open source et propose parfois des patchs, par exemple pour TomEE 1.7.2 et 7.0.0. Yann a participé à deux reprises à devoxx France en tant que conférencier sur Java EE et CDI lors d'une session de laboratoire.

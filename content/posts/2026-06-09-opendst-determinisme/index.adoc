@@ -1,0 +1,23 @@
+---
+title: "OpenDST : déterminisme au service du test de systèmes distribués"
+description: "Tout dev Java a déjà croisé ce bug : il apparaît en CI une fois sur cinquante, jamais en local, on n'arrive pas à le rejouer (sauf en prod, aïe). R..."
+image: cover.jpg
+tags: conference
+date: 2026-06-09
+---
+
+==  Programme de la soirée
+
+Tout dev Java a déjà croisé ce bug : il apparaît en CI une fois sur cinquante, jamais en local, on n'arrive pas à le rejouer (sauf en prod, aïe). Race condition ? Timeout réseau bizarre ? Ordre de threads improbable ? On ne saura sans doute jamais — on relance le job, on espère, on passe à autre chose.
+Le Deterministic Simulation Testing (DST), né chez FoundationDB et popularisé par TigerBeetle et Antithesis, propose une approche radicale : on rend le programme totalement déterministe. Horloge, ordonnanceur, RNG, sockets — tout passe par un simulateur piloté par une seed. Le même bug, à la même seed, se reproduit à l'identique. Indéfiniment. On peut enfin debugger ce qu'on ne voyait que par accident.
+Le DST est longtemps resté l'apanage de Rust et Zig. OpenDST apporte la technique à la JVM, sans toucher au code applicatif. Un agent Java intercepte les appels JDK (Thread, System.nanoTime, Socket, SecureRandom…) grâce à la ClassFile API (JEP 484), et redirige tout vers un simulateur bâti sur les Virtual Threads.
+
+Au programme :
+\- pourquoi nos tests d'intégration laissent passer les bugs structurels\,
+\- comment rendre une JVM déterministe avec les apports récents du JDK \(Virtual Threads\, ClassFile API\, \-\-patch\-module\)\,
+\- une démo live
+\- ce qui marche\, ce qui résiste encore\, et ce que vous pouvez essayer dès demain — le projet est open\-source \(Apache 2\.0\)\.
+
+== Le conférencier: Yannick Lecaillez
+
+Yannick Lecaillez est ingénieur logiciel chez Ping Identity, basé à Grenoble. Il s'intéresse depuis longtemps à ce qui rend un système distribué correct plutôt que simplement rapide — méthodes formelles, swarm testing, et plus récemment Deterministic Simulation Testing. Inspiré par FoundationDB, TigerBeetle et Antithesis, il a lancé en 2026 OpenDST, un framework open-source qui apporte le DST à l'écosystème Java. Batteur le reste du temps.

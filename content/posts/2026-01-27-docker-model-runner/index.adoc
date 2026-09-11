@@ -1,0 +1,28 @@
+---
+title: "IA avec Docker Model Runner et Compose - ce que j'ai appris depuis 2 ans"
+description: "Ma “passion” depuis 2 ans, essayer de tirer le maximum des petits modèles de langage locaux."
+image: cover.jpg
+tags: conference
+date: 2026-01-27
+---
+
+==  Programme de la soirée
+
+Ma *“passion”* depuis 2 ans, essayer de tirer le maximum des petits modèles de langage locaux.
+Lors de cette session, je vous présenterais ce que j’ai appris, ce qui est possible ou non, les contraintes … Pour “propulser” mes (tout) petits LLM j’utiliserais Docker Model Runner et Agentic Compose (et j'expliquerais aussi comment s’en servir).
+Nous aborderons les points suivants (avec toujours à l’esprit, les contraintes) :
+
+* Chat
+* RAG
+* Structured Output
+* Function Calling
+* MCP (si je ne suis pas trop pipelette)
+
+Voyez cette présentation comme une initiation (réutilisable) à l’IA générative assortie d’un retour d’expériences.
+*Et bien sûr, ce sera interactif.*
+
+== Le conférencier: Philippe Charrière
+
+Principal Solution Architect chez Docker.
+Précédemment Strategic Senior CSM & CSE chez GitLabPassionné par le développement en Go, JavaScript et Java (un peu de Rust et de Python)
+Une addiction forte à tout ce qui touche à WebAssembly et à l'IA générative

@@ -1,0 +1,17 @@
+<a href="{=profile}" target="_blank" rel="noopener noreferrer" class="author-card-link h-full">
+<div class="card author-card h-full">
+    <div class="avatar">
+        {#if avatar??}
+            <img src="{=cdi:site.image(avatar)}" alt="{=firstName}'s Avatar"/>
+        {#else}
+            <img src="{=cdi:site.image('roq-default/default-avatar.svg')}" alt="{=firstName}'s Avatar"/>
+        {/if}
+    </div>
+    <div class="details">
+        <h2 class="name">
+            <span class="block">{=firstName}</span>
+            <span class="block">{=lastName}</span>
+        </h2>
+    </div>
+</div>
+</a>

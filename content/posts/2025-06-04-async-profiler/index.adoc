@@ -1,0 +1,30 @@
+---
+title: "Async Profiler: optimiser vos applications"
+description: "🚨 CPU qui s'emballe ? OutOfMemory qui frappe sans prévenir ? Votre application Java vous fait des caprices en production ?"
+image: cover.jpg
+tags: conference
+date: 2025-06-04
+---
+
+==  Programme de la soirée
+
+🚨 CPU qui s'emballe ? OutOfMemory qui frappe sans prévenir ? Votre application Java vous fait des caprices en production ?
+Découvrez https://github.com/async-profiler/async-profiler[async-profiler], le couteau suisse du diagnostic de performance pour les applications Java. Plus besoin de naviguer à l'aveugle dans votre code !
+Dans cette présentation de style workhop, vous apprendrez à :
+
+* appréhender async-profiler en conditions réelles
+* décrypter les FlameGraphs pour identifier les goulots d'étranglement
+* simuler des scénarios de charge réalistes avec k6
+* diagnostiquer et résoudre les problèmes de performance courants
+
+Un talk hands-on destiné aux développeurs évoluant dans l'écosystème JVM. Focus sur la pratique : pas de théorie complexe, mais des outils concrets pour booster vos compétences en diagnostic performance.
+Venez avec votre laptop, repartez avec des compétences immédiatement applicables en production !
+👩‍💻 À qui s’adresse ce talk ? Aux développeurs JVM, qu’ils soient novices ou expérimentés, cherchant à enrichir leur arsenal pour analyser et résoudre les problèmes de performance.
+
+Venez découvrir, apprendre, et surtout pratiquer. Parce qu’avec les bons outils, chaque problème a sa solution.
+
+== Le conférencier: Victor Gallet
+
+Aujourd'hui, Tech Lead chez BPI, anciennement Staff Software Engineer chez ManoMano, j'ai aussi été Directeur technique pour la société Zenika ainsi que Consultant Java.
+Confluent Certified Trainer (Apache Kafka)
+Organisateur de la conférence https://www.alpescraft.fr/[AlpesCraft]

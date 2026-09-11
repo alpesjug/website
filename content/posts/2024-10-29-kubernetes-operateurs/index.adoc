@@ -1,0 +1,17 @@
+---
+title: "Simplifiez le déploiement de vos applications Kubernetes avec les opérateurs"
+description: "Kubernetes s'est imposé comme l'orchestrateur de conteneurs de référence. Un opérateur Kubernetes permet de réduire, voire masquer, la complexité de Kubernetes pour les ingénieurs."
+image: cover.jpg
+tags: conference
+date: 2024-10-29
+---
+
+==  Programme de la soirée
+
+Kubernetes s'est imposé comme l'orchestrateur de conteneurs de référence, permettant de déployer des applications sans (trop) se soucier de l'infrastructure sous-jacente. S'il est extrêmement robuste, Kubernetes reste un système imposant avec un grand nombre de composants et beaucoup de concepts à appréhender. Un opérateur Kubernetes est un composant qui permet de réduire, voire masquer, la complexité de Kubernetes pour les ingénieurs. Il simplifie la configuration requise pour déployer une application, en amenant des abstractions de plus haut niveau qui mettent en œuvre les bonnes pratiques connues. Il permet également d'automatiser certaines opérations de maintenance, réduisant ainsi le risque d'erreurs en production.
+
+Durant cette présentation, après être rentrés dans les détails de l'architecture de Kubernetes, nous découvrirons comment écrire nos propres des opérateurs Kubernetes avec l'excellent Java Operator SDK. Nous nous appuierons sur deux exemples concrets d'opérateurs, code et démonstration à l'appui.
+
+== Le conférencier: Vincent Primault
+
+Vincent Primault est Lead Software Engineer chez Salesforce. Il travaille à l'élaboration du moteur de recherche cloud-native qui sert les besoins du CRM Salesforce. Il se passionne également pour l'amélioration de l'expérience développeur à tous les étages. Avant cela, il a été doctorant à l'INSA Lyon, puis post-doctorant à l'University College London, travaillant sur des algorithmes de manipulation de données respectueux de la vie privée.

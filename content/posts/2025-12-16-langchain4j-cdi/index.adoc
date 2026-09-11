@@ -1,0 +1,35 @@
+---
+title: "IA Générative injectée dans vos Architectures d'Entreprise avec LangChain4j-CDI"
+description: "Après l'irruption de l'IA générative sur la scène publique, Java 🐉 n'est plus en retrait. LangChain4j 🦜 change la donne : Java est redevenu cool..."
+image: cover.jpg
+tags: conference
+date: 2025-12-16
+---
+==  Programme de la soirée
+
+Après l'irruption de l'IA générative sur la scène publique, *\*Java\** 🐉 n'est plus en retrait. *\*LangChain4j\** 🦜 change la donne : Java est redevenu *\*cool avec l'IA\** !
+Cette conférence, animée par Emmanuel Hugonnet, vétéran 🧙‍♂️ de l'industrie, démontre que les développeurs Java ont désormais accès à des bibliothèques d'IA *\*faciles à utiliser\** et aussi puissantes que celles de Python 🐍. Le nouveau dépôt *\*LangChain4j-CDI\** est la solution ultime pour infuser l'IA dans vos applications Jakarta EE.
+
+L'IA Simplement Injectable dans Jakarta EE 🤩
+LangChain4j-CDI est l'extension CDI qui réalise le pont parfait entre la puissance de LangChain4j et l'écosystème *Jakarta EE*/*MicroProfile*\. Imaginez pouvoir injecter un agent IA aussi simplement qu'un \|@Inject EntityManager\| \!
+
+* *Combinez la puissance de Jakarta EE* avec la portée de LangChain4j.
+* *Fini le code boilerplate* : avec une simple annotation \|@RegisterAIService\|\, transformez vos applications en systèmes intelligents tout en conservant les *patterns* et les *bonnes pratiques Java d'entreprise*.
+* *Tous les idiomes Jakarta* (injection, validation, persistance, REST, etc.) fonctionnent désormais de concert avec l'IA exposée par LangChain4j.
+
+Architecture d'Agents IA pour l'Entreprise
+
+Nous plongerons dans l'architecture de `|langchain4j-cdi|` et son intégration. Vous apprendrez à coder un *Agent IA* dans un conteneur Jakarta EE ou MicroProfile avec une configuration externalisée.
+
+* *Connexion aux Outils MCP* : Découvrez comment votre agent peut interagir avec des outils qui sont eux-mêmes des applications JakartaEE/MicroProfile.
+* *Protocole A2A*: Intégrez l'ensemble dans un système d'*agents fédérés* via le protocole Agent-to-Agent (A2).
+
+Robustesse et Opérabilité : Le Standard Entreprise
+
+L'intégration de l'IA dans des applications critiques nécessite *résilience*et *traçabilité*. Nous vous montrerons comment :
+
+* Gérer la *configuration* de manière flexible (multi-providers, multi-modèles) avec *MicroProfile Config*.
+* Assurer l'*observabilité* et la *traçabilité* de vos interactions IA (métriques, traces et logs).
+* Garantir la *résilience* de vos LLMs grâce à *MicroProfile Fault Tolerance* (retries, timeouts, circuit breakers).
+
+Que vous utilisiez *Quarkus, WildFly, Helidon* ou tout autre runtime Jakarta EE, repartez avec une vision claire et une démonstration Live Coding saisissante : nous vous montrerons comment *coder et déployer un Agent IA en moins de 5 minutes chrono*, prouvant la simplicité radicale de moderniser vos applications et adopter les patterns émergents de l'IA générative en production !

@@ -1,0 +1,17 @@
+---
+title: "Une alternative libre à Docker: Podman"
+description: "Vous connaissez et même utilisez tous les jours pour certains des conteneurs pour vos applications. Docker est une des solutions les plus connues. Mais savez-vous qu'il existe une alternative Open-Source et totalement gratuite : Podman."
+image: cover.jpg
+tags: conference
+date: 2023-03-28
+---
+
+==  Programme de la soirée
+
+Vous connaissez et même utilisez tous les jours pour certains des conteneurs pour vos applications. Docker est une des solutions les plus connues. Mais savez-vous qu'il existe une alternative Open-Source et totalement gratuite : Podman.
+Podman gère les conteneurs en fonctionnant de base sans "daemon" et permet aux utilisateurs de gérer des conteneurs en tant qu'utilisateurs non privilégiés ce qui augmente la sécurité.
+Après un bref rappel sur les conteneurs, je montrerai comment remplacer Docker par Podman avec la compatibilité Docker. Nous découvrirons certains avantages de Podman par rapport à Docker mais aussi des cas d'utilisation avec la partie graphique de Podman: Podman Desktop.
+
+== Le conférencier: Florent Benoit
+
+Florent Benoit travaille pour Red Hat dans l'entité "Outils de Développement". Il travaille sur le projet Podman Desktop qui permet d'utiliser plus facilement Podman. Auparavant il travaillait sur le cloud IDE tournant sur Kubernetes: Eclipse Che.

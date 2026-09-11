@@ -1,0 +1,30 @@
+---
+title: "L'IA et la génération de code en avril 2026"
+description: "Pour un développeur, la génération de code n'a rien de nouveau. On peut citer en particulier JHipster, que j'ai créé il y a plus de 10 ans, et qui ..."
+image: cover.jpg
+tags: conference
+date: 2026-04-07
+---
+
+==  Programme de la soirée
+
+Pour un développeur, la génération de code n'a rien de nouveau. On peut citer en particulier *JHipster*, que j'ai créé il y a plus de 10 ans, et qui reste toujours très populaire!
+
+Cependant, l'arrivée récente de l'IA générative a bouleversé le paysage. Des outils comme GitHub Copilot, ChatGPT, Claude Code, Cursor sont apparus, et ils sont aujourd'hui dominants, au moins sur les réseaux sociaux...
+D'abord limités à la complétion de code, et reposant sur des modèles aux dates d'entraînement anciennes, incapables de comprendre un projet entier, ces outils ont rapidement évolué pour devenir des assistants de programmation très puissants.
+
+Nous allons voir dans cette session (liste non garantie, en fonction des évolutions et de l'actualité!):
+\- Les nouveaux modes d'utilisation de ces outils: le mode agent\, le mode plan\.
+\- Les skills
+\- L'utilisation des serveurs MCPs\.
+\- Leur intégration dans les IDEs \(ou non\!\)
+\- Le spec\-driven development
+Nous utiliserons en particulier GitHub Copilot CLI et https://github.com/jdubois/dr-jskill[https://github.com/jdubois/dr-jskill] (mon propre skill pour créer des applications Java), dans un ensemble de demos.
+
+== Le conférencier: Julien Dubois
+
+Julien Dubois est Java Champion et Principal Manager chez Microsoft, où il dirige l'équipe des relations développeurs Java au sein des organisations CoreAI et GitHub. Avec son équipe d'experts internationaux, Julien travaille directement avec les ingénieurs de la société pour améliorer la façon dont les développeurs Java peuvent exploiter l'IA en utilisant les solutions Microsoft et GitHub.
+
+Avec plus de 25 ans d'expérience dans l'écosystème Java, Julien est surtout connu comme le créateur de JHipster, une plateforme Open Source avec plus de 22 000 étoiles sur GitHub qui a révolutionné la façon dont les développeurs construisent des applications Spring Boot. Son travail récent se concentre sur l'intégration de l'IA avec les technologies Java, grâce à ses contributions à LangChain4j et à Spring AI.
+
+Julien est un expert reconnu dans la communauté Java, ayant pris la parole lors de plus de 200 conférences internationales, dont Devoxx, Spring One et Microsoft Build. Il est l'auteur de « Spring par la pratique », le premier livre français sur le framework Spring, devenu un best-seller. Ses présentations comportent généralement des sessions de live-coding et des ateliers pratiques qui aident les développeurs à appliquer immédiatement les nouvelles technologies.

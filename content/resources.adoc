@@ -1,0 +1,11 @@
+---
+title: Ressources
+description: Retrouvez certains supports de précédentes conférences
+---
+
+== Ressources
+
+Vous pourrez retrouver ici quelques ressources comme des supports de présentations données lors des évènements de AlpesJUG.
+
+=== 01/04/2025
+link:/presentations/TrashTalk_GerritGrunwald.pdf[Trash Talk - Exploring the JVM memory management] - Gerrit Grunwald

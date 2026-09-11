@@ -1,0 +1,25 @@
+---
+title: "Reactive Streams. 4 interfaces. Et après ?"
+description: "Reactive Streams est une spécification d'interfaces et d'un protocole pour le traitement de flux asynchrones non-bloquants."
+image: cover.jpg
+tags: conference
+date: 2024-06-11
+---
+
+==  Programme de la soirée
+
+Reactive Streams est une spécification d'interfaces et d'un protocole pour le traitement de flux asynchrones non-bloquants.
+De nombreuses bibliothèques de l'écosystème Java s'appuient sur Reactive Streams: il est ainsi possible de connecter un acteur Akka programmé en Scala qui envoie un flux d'évènements à une application Quarkus qui utilise le modèle de programmation asynchrone de Mutiny en Java.
+Si Reactive Streams et son cousin Flow du JDK n'exposent que 4 interfaces en apparence très simples à implémenter, le diable se cache dans les détails du protocole Reactive Streams.
+Cette présentation vous expliquera les dessous de Reactive Streams basé sur notre expérience du projet Mutiny, comment écrire un composant Reactive Streams correct, l'intégration de l'asynchrone dans des frameworks comme Quarkus, les fausses bonnes idées liées à la performance ainsi que le futur de l'écosystème réactif Java.
+
+== Le conférencier: Julien Ponge
+
+Je suis ingénieur logiciel principal chez Red Hat.
+Je travaille principalement sur du réactif :
+
+* le projet Eclipse Vert.x, une boîte à outils économe en ressources pour écrire des micro-services événementiels évolutifs et résilients sur la JVM,
+* Mutiny, une bibliothèque de programmation réactive intuitive et basée sur les événements pour Java,
+* Quarkus, une pile Java native Kubernetes conçue pour OpenJDK HotSpot et GraalVM, utilisant à partir des meilleures bibliothèques et normes Java.
+
+Je suis l'auteur d'un livre intitulé « https://www.manning.com/books/vertx-in-action[Vert.x in Action] » chez Manning. Avant de rejoindre Red Hat, j'ai été Professeur Associé en informatique et ingénierie à l'INSA de Lyon et au Laboratoire CITI où j'ai occupé différents postes d'enseignement, de recherche, de direction et de direction.

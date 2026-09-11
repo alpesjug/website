@@ -1,0 +1,15 @@
+---
+title: "Trash Talk - Exploring the JVM memory management"
+description: "Présentation"
+image: cover.jpg
+tags: conference
+date: 2025-04-01
+---
+
+==  Programme de la soirée
+
+In the realm of Java programming, understanding memory management and garbage collection mechanisms cannot only be helpful for optimizing performance and resource utilization but also in general will help you to use the right garbage collector for your application. This session will be about memory allocation, object lifecycle, and garbage collection strategies within the Java Virtual Machine (JVM). Attendees will gain insights into memory allocation strategies, object retention policies, and various garbage collection algorithms like generational and concurrent collection. So when you are interested in getting more knowledge about which garbage collector to use best for your application or about memory management in the JVM, this session is for you.
+
+== Le Conférencier: Gerrit Grunwald - Azul Systems
+
+Gerrit Grunwald is a software engineer with more than fifteen years of experience in software development. He is a true believer in open source and has participated in popular projects like JFXtras.org as well as his own projects (TilesFX, Medusa, Enzo, SteelSeries Swing, SteelSeries Canvas). Gerrit blogs regularly at http://harmonic-code.org, he is an active member of the Java community, where he founded and leads the Java User Group Münster (Germany), he is a JavaOne rockstar and a Java Champion. He is a speaker at conferences and user groups internationally and writes for several magazines.

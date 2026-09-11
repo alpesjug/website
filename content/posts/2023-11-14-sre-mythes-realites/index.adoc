@@ -1,0 +1,21 @@
+---
+title: "SRE, Mythes vs Réalités"
+description: "Il y a encore trop souvent une vision fantasmée de l'activité SRE, ce qui entraine mécaniquement des retours à la réalité qui sont parfois douloureux."
+image: cover.jpg
+tags: conference
+date: 2023-11-14
+---
+
+==  Programme de la soirée
+
+Il y a encore trop souvent une vision fantasmée de l'activité SRE, ce qui entraine mécaniquement des retours à la réalité qui sont parfois douloureux.
+L'intention de ce talk est de faire un retour d'expérience SRE, sur ce que nous avons pu voir, Jean-Pascal et Henri, dans des entreprises de petites à grandes, des jeunes pousses ou de vénérables institutions.
+L'idée est de vous armer pour éviter le maximum de déconvenues et rendre l'activité SRE la plus profitable et efficiente possible.
+
+== Le conférencier: Henri Gomez
+
+Je travaille dans l'industrie logicielle depuis plus de 35 ans.
+J'ai commencé ma carrière coté développement, Développeur puis Chef de Projet et pour finir Architecte Logiciel. J'ai ensuite glissé vers l'ingénierie logicielle, comme Tech QA puis Architecte CI. Et je sévis maintenant coté Run, Opérations, DevOps et SRE.
+Il y a bien longtemps, je suis tombé dans l'OpenSource, un peu par hasard et j'y suis resté par conviction. Membre de l'Apache Fondation, pour avoir contribué à Apache Tomcat, je suis plus ASL que GPL mais l'important est ailleurs.
+Une overdose de couches d'abstractions fait que mes hobbies tournent autour de l'informatique embarquée et de machines des années 80 que j'aime ramener à la vie, mon monitoring se faisant avec un oscilloscope et mes déploiements avec un fer à souder.
+Si vous me demandez quel est le meilleur ordinateur que j'ai jamais rencontré, ma réponse sera bien évidemment le Commodore 64 :)

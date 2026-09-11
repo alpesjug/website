@@ -1,0 +1,24 @@
+---
+title: "SpringBoot 2025 : NullSafety et Optimisations"
+description: "Null Safety en Java avec JSpecify et NullAway"
+image: cover.jpg
+tags: conference
+date: 2025-09-25
+---
+
+==  Programme de la soirée
+
+=== Null Safety en Java avec JSpecify et NullAway
+
+JSpecify est un ensemble d’annotations, de spécifications et de documentations permettant une vérification de la "null safety" des applications Java dans l'IDE lors du développement et lors de la compilation grâce à des outils comme NullAway.
+Sébastien, qui participe depuis plusieurs années au groupe de travail JSpecify réunissant plusieurs entreprises investies dans l’écosystème JVM comme Google, JetBrains, Oracle ou Broadcom, présentera comment JSpecify peut permettre aux développeurs Java de détecter avant le déploiement les potentielles NullPointerException de façon à rendre leurs applications plus fiables en transformant “the billion dollar mistake” en une fonctionnalité utile permettant de d'exprimer l'absence potentielle de valeur.
+Il présentera également comment les futures Spring Framework 7 et Spring Boot 4 utiliseront JSpecify côté framework et application afin de permettre la création d’applications Spring Boot plus robustes.
+
+=== Optimisez vos applications Spring Boot avec CDS et Project Leyden
+
+Spring Boot 3 a introduit des optimisations visant à améliorer l’efficacité et les performances des applications Spring Boot déployées en tant que conteneurs en production.
+Dans cette présentation, Sébastien montrera comment tirer partie de technologies telles que Virtual Threads, Spring AOT, CDS/AOT cache et Buildpacks avec Spring Boot 3 et Java 24/25. Sébastien partagera des benchmarks (temps de démarrage, consommation mémoire, requêtes par seconde et latence), parlera des critères les plus importants pour choisir entre GraalVM, Project CRaC et CDS/AOT cache. Il donnera également un aperçu des améliorations à venir dans Project Leyden afin d’avoir des performances maximales dès le démarrage de la JVM.
+
+== Le conférencier: Sébastien Deleuze
+
+*Sébastien* travaille chez *Broadcom* en tant que core committer Spring Framework. Il a introduit le support de Kotlin dans les projets Spring, et travaille à intégrer différentes technologies avec le but d'optimiser l'efficacité des applications Spring en production (GraalVM, Project CRaC, CDS, Project Leyden). Il est également fan de WebAssembly depuis 2016 et un ancien membre de l’équipe qui organise la conférence MiXiT.

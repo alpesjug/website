@@ -1,0 +1,24 @@
+---
+title: Sponsors
+description: Nos sponsors nous soutiennent et nous permettent de vous proposer des évènements gratuits et de qualité
+---
+
+=== Sponsors
+
+++++
+<a href="https://www.salesforce.com/eu/">
+    <img src="/images/Salesforce-Corporate-Logo-Horiz-RGB.svg" class="block dark:hidden" alt="Salesforce" />
+    <img src="/images/Salesforce-Corporate-Logo-Horiz-White-RGB.svg" class="hidden dark:block" alt="Salesforce" />
+</a>
+++++
+https://www.salesforce.com/eu/[Salesforce]
+
+=== Remerciements
+
+++++
+<a href="https://www.jetbrains.com/fr-fr/">
+    <img src="/images/jetbrains.svg" class="block dark:hidden" alt="JetBrains" />
+    <img src="/images/jetbrains-mono-white.svg" class="hidden dark:block" alt="JetBrains" />
+</a>
+++++
+https://www.jetbrains.com/fr-fr/[JetBrains]

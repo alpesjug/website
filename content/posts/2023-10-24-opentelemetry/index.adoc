@@ -1,0 +1,17 @@
+---
+title: "Introduction pratique à OpenTelemetry"
+description: "Tracer la circulation d'un requête au travers de différents composants d'un système distribué est essentiel. Avec l'apparition des micro-services, cela a atteint des niveaux critiques."
+image: cover.jpg
+tags: conference
+date: 2023-10-24
+---
+
+==  Programme de la soirée
+
+Tracer la circulation d'un requête au travers de différents composants d'un système distribué est essentiel. Avec l'apparition des micro-services, cela a atteint des niveaux critiques. Certains outils propriétaires fermés pour suivre cette circulation sont déjà utilisés: parmi les plus célèbres Jaeger et Zipkin viennent rapidement à l'esprit.
+L'observabilité est construite autour de trois piliers: journaux, métriques, et suivis. https://opentelemetry.io/[OpenTelemetry] est un effort partagé pour proposé un standard ouvert couvrant ces trois points. https://www.jaegertracing.io[Jaeger] et https://zipkin.io/[Zipkin] en font parti et fournissent une implémentation compatible OpenTelemetry.
+Durant cette présentation; je vous décrirai tout cela en détails et je vous présenterai un cas d'usage (simple) pour vous montrer comment vous pourrez bénéficier d'OpenTelemetry dans vos architectures distribuées.
+
+== Le conférencier: Nicolas Frankel
+
+Nicolas Frankel est un https://blog.frankel.ch/[Developer Advocate] avec plus de 15 ans d'expérience en tant que consultant pour de nombreux clients dans un contexte très large (allant des télécoms, banques et assurances aux magasins de détails et au secteur public). Il travaille habituellement avec les technologies Java/Java EE et Spring et plus particlièrement en se concentrant sur les Rich Internet Applications, Testing, CI/CD et DevOps. Il est aussi formateur et l'auteur de livres techniques.

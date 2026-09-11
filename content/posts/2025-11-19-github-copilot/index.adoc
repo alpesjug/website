@@ -1,0 +1,37 @@
+---
+title: "GitHub Copilot & GiThub"
+description: "🚀 GitHub Copilot : Les nouveautés de 2025 !"
+image: cover.jpg
+tags: conference
+date: 2025-11-19
+---
+
+== 🚀 GitHub Copilot : Les nouveautés de 2025 !
+
+L’an dernier, vous avez découvert comment GitHub Copilot a révolutionné le quotidien des développeurs : rédaction de code, documentation, tests, intégration continue…
+En 2025, Copilot va encore plus loin pour booster votre productivité :
+
+* 🤖 *Multi-modèles* : Choisissez votre LLM préféré (GPT, Claude, Gemini…) pour des suggestions adaptées à votre style.
+* ✨ *Edits intelligents* : Optimisez votre code en un clin d’œil grâce à des améliorations globales.
+* 🖼️ *Vision* : Une image vaut mille mots ! Intégrez des images dans vos conversations pour enrichir vos échanges.
+* 🛠️ *Mode Agent* : Copilot devient votre assistant personnel et vous aide à gérer vos tâches quotidiennes.
+* 🔌 *MCP* \- Intégration de nouveaux outils/agents avec le Model Context Protocol
+* 🎁 …et bien plus encore !
+
+Mais Copilot ne se limite pas à votre IDE ! Découvrez comment il peut aussi vous aider à :
+
+* 🔍 Explorer et comprendre vos projets open source préférés.
+* ✅ Réaliser des revues de code plus intelligentes et efficaces.
+* 🚦 Déboguer vos pipelines CI/CD en toute simplicité.
+
+=== 🎬 Au programme
+
+Des démonstrations en direct, interactives et adaptées à vos besoins !
+Rejoignez cette session pour découvrir comment Copilot redéfinit, une fois de plus, votre façon de coder et de collaborer. 🚀
+
+== Le conférencier: Tugdual Grall
+
+Tugdual "Tug" is Solutions Engineer at GitHub where he helps developers to do more with GitHub!
+Before GitHub, Tug has worked at Redis, Red Hat, MapR, MongoDB, Couchbase, eXo and Oracle as developer, product manager or developer advocate.
+Tug is also the co-founder of the Nantes JUG (Java Users Group) which has brought together developers and architects from the Nantes region every month since 2008.
+Twitter: @tgrall GitHub: @tgrall LinkedIn: https://www.linkedin.com/in/tugdualgrall/[https://www.linkedin.com/in/tugdualgrall/]

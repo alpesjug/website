@@ -1,0 +1,17 @@
+---
+title: "WildFly Glow, produire le serveur WildFly dont votre application a besoin"
+description: "Cette présentation est une introduction a WildFly Glow, une nouvelle approche pour le provisioning de WildFly."
+image: cover.jpg
+tags: conference
+date: 2024-02-13
+---
+
+==  Programme de la soirée
+
+Cette présentation est une introduction a WildFly Glow, une nouvelle approche pour le provisioning de WildFly.
+Le provisioning de WildFly en général sera tout d'abord présenté, ses limites détaillées puis nous verrons comment WildFly Glow simplifie drastiquement l'expérience utilisateur.
+Pendant la présentation le tooling de WildFly Glow sera démontré.
+
+== Le conférencier: Jean-François Denise
+
+Jean-François est un "Principal software engineer" chez Red Hat. Il est impliqué dans le tooling ainsi que le WildFly provisioning (WildFly CLI, WildFly Bootable JAR, Openshift images, WildFly Glow).

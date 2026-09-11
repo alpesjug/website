@@ -1,0 +1,18 @@
+---
+title: "Développer son application à base de conteneurs avec le standard Devfile et odo"
+description: "Vous souhaitez accélérer votre adoption de Kubernetes sans vous perdre dans des détails complexes?"
+image: cover.jpg
+tags: conference
+date: 2023-09-26
+---
+
+==  Programme de la soirée
+
+Vous souhaitez accélérer votre adoption de https://kubernetes.io/fr/[Kubernetes] sans vous perdre dans des détails complexes?
+https://devfile.io[Devfile] est une spécification open (CNCF sandbox) qui permet de décrire de manière portable et cohérente un environnement de développement conteneurisé, permettant ainsi de simplifier et d'unifier le développement d'applications cloud-native.
+Le projet open-source https://odo.dev[odo] en est une implémentation en ligne de commandes (CLI), pouvant faire tourner une application décrite dans un Devfile aussi bien localement via https://podman.io/[Podman] que dans tout type de cluster Kubernetes, puis d'itérer de manière efficace; tout cela indépendamment de tout langage ou framework.
+Dans cette présentation, nous explorerons les concepts fondamentaux de la spécification Devfile, puis un aperçu de l'écosystème Devfile. Puis nous verrons, au travers d'un cas d'utilisation concret, comment odo permet d'accélérer le workflow de développement, à l'aide de commandes intuitives pour itérer rapidement.
+
+== Le conférencier: Armel Soro
+
+Armel est Senior Software Engineer chez https://redhat.com[Red Hat] en tant que maintainer sur le projet https://odo.dev[odo]. Passionné de systèmes distribués et en quête permanente d'amélioration de l'expérience de développement.

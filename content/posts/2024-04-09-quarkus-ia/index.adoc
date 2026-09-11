@@ -1,0 +1,21 @@
+---
+title: "Intégrer l'IA dans les Applications d'Entreprise avec Quarkus 3"
+description: "Quarkus est une stack pour écrire des applications Java pour le Cloud. En réduisant l'emprunte mémoire et le temps de démarrage, les applications Q..."
+image: cover.jpg
+tags: conference
+date: 2024-04-09
+---
+
+==  Programme de la soirée
+
+Quarkus est une stack pour écrire des applications Java pour le Cloud. En réduisant l'emprunte mémoire et le temps de démarrage, les applications Quarkus permettent en autre d'augmenter la densité de déploiement, le développement d'application serverless en Java, un meilleur comportement dans Kubernetes…
+
+La première release publique de Quarkus a été faite en Mars 2019. Nous voilà 4 ans plus tard avec Quarkus 3.x. Entre temps, Quarkus a grandi, son écosystème s'est enrichi. Mais, Quarkus est resté fidèle à ses principes.
+Cette présentation rappelle les points fondamentaux de Quarkus (build-time principle, reactive core, container-first...) et explique leur évolution au cours de ces 4 dernières années ainsi que les nouveautés de Quarkus 3.x tels que la nouvelle dev ui, l'intégration d'Hibernate 6, le passage à Jakarta et à Flow, le support des threads virtuels (project loom), les différentes améliorations de l'expérience pour les développeurs, le support des architectures ARM…
+
+Dans le contexte dynamique de l'intelligence artificielle, l'intégration transparente et fluide des grands modèles de langage (LLM) dans les applications devient une priorité majeure pour les développeurs. Malgré la disponibilité de nombreuses bibliothèques qui facilitent cette intégration, elles tendent souvent à négliger les exigences globales propres aux applications d'entreprise. Au-delà de la simple interaction, une intégration réussie exige une prise en charge solide d'éléments cruciaux tels que les métriques, la tolérance aux pannes, l'audit et l'extensibilité.
+Cette présentation plonge dans l'univers de l'intégration de l'IA et particulièrement des LLMs au sein des applications d'entreprise basés sur Quarkus. En partant des principes fondamentaux, nous vous guiderons à travers l'amélioration d'une application Quarkus de base pour répondre aux exigences d'un logiciel d'entreprise. Découvrez comment intégrer l'observabilité, les mécanismes de tolérance aux pannes, les protocoles d'audit et les fonctionnalités de documentation, garantissant ainsi une intégration complète des LLMs dans vos applications Quarkus.
+
+== Le conférencier: Clement Escoffier
+
+Clement Escoffier (@clementplop) est distinguished engineer chez Red Hat et aussi un Java Champion. Avant de rejoindre Red Hat, Clement a eu plusieurs vies professionnelles, de postes universitaires au management. Il a contribué à de nombreux projets et produits, touchant au passage à différents domaines et technologies tel que OSGi, mobile, continuous delivery, et DevOps. Clément s'est toujours intéressé à l'ingénierie logicelle, aux systèmes distribués et à l'architecture piloté par les évènements. Il s'est récemment concentré sur les Systèmes Réactifs, les applications Cloud-Native et Kubernetes. Clément a contribué à de nombreux projets open-source comme Apache Felix, Eclipse Vert.x, SmallRye, Mutiny, et Quarkus. Il est aussi l'auteur du livre "Reactive Systems in Java".

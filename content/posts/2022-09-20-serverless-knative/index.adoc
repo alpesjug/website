@@ -1,0 +1,18 @@
+---
+title: "Serverless knative"
+description: "L'autoscaling et le scale-to-zero sont l'une des fonctionnalités les plus en vogue aujourd'hui et les solutions serverless permettent d'y répondre...."
+image: cover.jpg
+tags: conference
+date: 2022-09-20
+---
+
+==  Programme de la soirée
+
+L'autoscaling et le scale-to-zero sont l'une des fonctionnalités les plus en vogue aujourd'hui et les solutions serverless permettent d'y répondre. Contrairement à certaines implémentation s'appuyant sur des technologies propriétaires, Knative s'affranchit de ces contraintes et s'appuie sur les blocs de base de Kubernetes, rendant la solution portable et agnostique.
+Dans cette présentation nous présenterons les deux facettes de Knative, la partie "serving" et la partie "eventing" mais on verra également que Knative apporte bien plus que le serverless et facilite en fait la vie du développeur qui travaille avec Kubernetes.
+
+*Attention, nous changeons de lieu et la réunion se fera chez Salesforce*
+
+== Le conférencier: Sébastien Blanc
+
+Sébastien Blanc a 12 d'expérience. Il a passé prés de 7 ans au pays des Bataves à écumer les compagnie d'assurances et les banques à base de Struts et de Websphere. Revenu depuis sur la cote d'azur se faire dorer, Sébastien travaille actuellement pour Red Hat, il fait partie de l'équipe KeyCloak qui délivre un serveur Open Source d'authentification et de gestion d'identité. Dans son temps libre, il s'intéresse également au langage Groovy, au framework Web Grails et plus particulièrement à l'aspect Mobile et les outils RAD. Il aime également évangéliser les nerds en donnant régulièrement des conférences (Devoxx, SpringOne, GR8Conf). Vous pouvez réagir a ses trolls sur @sebi2706.

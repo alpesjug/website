@@ -1,0 +1,21 @@
+---
+title: "Mon parcours pour libérer WASM de mon navigateur"
+description: "Il y a deux ans, pendant mes vacances d'été, j'ai décidé d'apprendre Golang et WASM. Mon langage de programmation par défaut est JavaScript, donc c..."
+image: cover.jpg
+tags: conference
+date: 2022-12-13
+---
+
+==  Programme de la soirée
+
+Il y a deux ans, pendant mes vacances d'été, j'ai décidé d'apprendre *Golang* et *WASM*. Mon langage de programmation par défaut est JavaScript, donc c'était un peu difficile mais très amusant. J'ai joué pendant une semaine avec mon frère ; au final, je suis revenu au backend et j'ai développé un petit FaaS avec Node.js (pour l'orchestrateur) et Go pour construire les modules WASM (fonctions).
+Pourquoi Node.js ? Pouvoir utiliser l'intégration *WASM* de la VM JavaScript. Au même moment, Connor Hicks (de Suborbital) m'a dit sur Twitter de regarder leur projet Atmo et WASI. C'était l'illumination ! Il y avait un moyen de libérer WASM pour de vrai depuis le navigateur !
+Puis, après plus d'un an de projets parallèles, un https://k33g.gumroad.com/l/wasmcooking?layout=profile[ebook] et des articles de https://k33g.gumroad.com/[blog]. J'ai eu la chance de découvrir le projet *https://github.com/tetratelabs/wazero[Wazero]* : "le runtime WebAssembly zéro dépendance pour les développeurs Go". La documentation et les exemples sont très simples, et j'ai recommencé un nouveau FaaS avec GoLang et TinyGo (pour les modules WASM WASI compliant).
+Je suis un noob en GoLang (rappelez-vous, je suis un développeur JavaScript), mais j'ai appris à résoudre et à éviter les difficultés apportées par la jeunesse de WASI. Aujourd'hui, je voudrais présenter une manière douce de libérer WASM du navigateur.
+
+== Le conférencier: Philippe Charrière
+
+Philippe Charrière est speaker par hobby et travaille chez GitLab en tant que Customer Success Engineer.
+Il aime programmer en JavaScript, Java et Kotlin, et fait depuis 2 ans ses "baby steps" en Go (et aussi un peu de Rust) de temps en temps.
+Il adore GitLab (l'application, il peut presque tout faire avec et il y a une légende qui dit que chez GitLab il serait la 1ère personne à avoir utilisé des emojis dans les pipelines)
+Par dessus tout, il aime (essayer) d'expliquer simplement les choses compliquées.
