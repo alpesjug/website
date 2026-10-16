@@ -1,12 +1,18 @@
 <section class="sidebar-sponsors">
     <h3 class="section-title">Sponsors</h3>
     <div class="sponsor-logos">
-        <a href="https://www.salesforce.com/eu/" target="_blank" rel="noopener noreferrer" title="Salesforce">
-            <img src="/images/Salesforce-Corporate-Logo-Cloud-RBG.svg" alt="Salesforce" />
+        {#for sponsor in cdi:sponsors.sponsors}
+        <a href="{=sponsor.url}" target="_blank" rel="noopener noreferrer" title="{=sponsor.name}">
+            <img src="/images/{=sponsor.logo_sidebar}" alt="{=sponsor.name}" />
         </a>
-        <a href="https://www.jetbrains.com/fr-fr/" target="_blank" rel="noopener noreferrer" title="JetBrains">
-            <img src="/images/jetbrains-mono-white.svg" alt="JetBrains" />
+        {/for}
+        <hr class="sponsor-separator" />
+        <span class="sponsor-separator-label">Partenaires</span>
+        {#for partner in cdi:sponsors.partners}
+        <a href="{=partner.url}" target="_blank" rel="noopener noreferrer" title="{=partner.name}">
+            <img src="/images/{=partner.logo_sidebar}" alt="{=partner.name}" />
         </a>
+        {/for}
     </div>
 </section>
 <section class="contact">

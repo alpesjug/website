@@ -1,0 +1,13 @@
+sponsors:
+  - name: Salesforce
+    url: https://www.salesforce.com/eu/
+    logo_light: Salesforce-Corporate-Logo-Horiz-RGB.svg
+    logo_dark: Salesforce-Corporate-Logo-Horiz-White-RGB.svg
+    logo_sidebar: Salesforce-Corporate-Logo-Cloud-RBG.svg
+
+partners:
+  - name: JetBrains
+    url: https://www.jetbrains.com/fr-fr/
+    logo_light: jetbrains.svg
+    logo_dark: jetbrains-mono-white.svg
+    logo_sidebar: jetbrains-mono-white.svg

@@ -96,3 +96,18 @@
     width: 100%;
     height: auto;
 }
+
+.sidebar-sponsors .sponsor-separator {
+    width: 60%;
+    border: none;
+    border-top: 1px solid var(--color-accent-200);
+    margin: 0.25rem 0 0;
+}
+
+.sidebar-sponsors .sponsor-separator-label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-accent-400);
+    margin-bottom: 0.5rem;
+}
