@@ -6,6 +6,8 @@ tags: conference
 date: 2026-10-27
 ---
 
+Le Mardi 27 Ocotobre 2026 l'AlpesJUG aura le plaisir d’accueillir Philippe Charrière pour venir nous parler d'agent de code local avec de petits modèles.
+
 == Programme de la soirée
 
 L'an dernier, nous avions parlé de comment faire tourner des LLMs en local et les principes de base des applications d'IA générative. Cette fois ci allons un peu plus loin et voyons ce qu'est l'agent loop.
